@@ -47,4 +47,4 @@ jobs:
       - uses: r-lib/actions/check-r-package@v1
 
       - name: Check
-        run: Rscript -e "jsonlite::fromJSON('https://api.github.com/repos/mozilla/geckodriver/releases2')"
+        run: Rscript -e "jsonlite::fromJSON('https://api.github.com/repos/mozilla/geckodriver/releases')"
