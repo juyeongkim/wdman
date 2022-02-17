@@ -46,5 +46,5 @@ jobs:
 
       - uses: r-lib/actions/check-r-package@v1
 
-      - name: Check drivers
-        run: Rscript inst/etc/checks.R
+      - name: Check
+        run: Rscript -e "Sys.info()"
